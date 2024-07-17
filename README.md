@@ -66,17 +66,17 @@ Version: Magic C2 v0.1.0 Demo
 
 ### 3. 环境配置
 
-<u>客户端</u>
+<u>(1) 客户端</u>
 
 开发语言：C# WPF、Python 3
 
 运行环境：Windows、Python 3、msbuild.exe (将 C:\Program Files\Microsoft Visual Studio\xxxx\Professional\MSBuild\Current\Bin 添加至环境变量)
 
-<u>服务端</u>
+<u>(2) 服务端</u>
 
 开发语言：Go
 
-<u>后门</u>
+<u>(3) 后门</u>
 
 开发语言：C/C++、Assembly
 
