@@ -16,7 +16,7 @@ Version: Magic C2 v0.1.0 Demo
 
 因为今年异常忙碌，直到最近一个月，我才从百忙之中抽空完成了本项目的 Demo 版本。虽然与一个成熟的 C2 框架还有一定距离，但也已经非常棒了！
 
-![屏幕截图 2024-07-17 175750.png](https://github.com/HackerCalico/Magic_C2/Client/bin/Debug/config/README/1.png)
+![屏幕截图 2024-07-17 175750.png](https://github.com/HackerCalico/Magic_C2/blob/main/Client/bin/Debug/config/README/1.png)
 
 ### 2. 项目亮点
 
@@ -26,7 +26,7 @@ Version: Magic C2 v0.1.0 Demo
 
 确定进入 “正式上线” 阶段后，服务端会向后门发送核心 ShellCode 密钥，进而解密加载。
 
-![1.png](https://github.com/HackerCalico/Magic_C2/Client/bin/Debug/config/README/2.png)
+![1.png](https://github.com/HackerCalico/Magic_C2/blob/main/Client/bin/Debug/config/README/2.png)
 
 规避优势：
 
@@ -58,7 +58,7 @@ Version: Magic C2 v0.1.0 Demo
 
 服务端在遇到无效的凭证或请求数据时，只会响应空白 / 404，并向所有客户端通知未授权访问行为。
 
-![4.png](https://github.com/HackerCalico/Magic_C2/Client/bin/Debug/config/README/3.png)
+![4.png](https://github.com/HackerCalico/Magic_C2/blob/main/Client/bin/Debug/config/README/3.png)
 
 <mark>(4) 二次开发</mark>
 
@@ -103,11 +103,11 @@ Client
 
 Python 编写规范可参考 cmd、help 插件。
 
-![2.png](https://github.com/HackerCalico/Magic_C2/Client/bin/Debug/config/README/4.png)
+![2.png](https://github.com/HackerCalico/Magic_C2/blob/main/Client/bin/Debug/config/README/4.png)
 
 目前其他 ”_“ 结尾的插件均为 ”文件管理“ 模块的插件，模块如图。
 
-![3.png](https://github.com/HackerCalico/Magic_C2/Client/bin/Debug/config/README/5.png)
+![3.png](https://github.com/HackerCalico/Magic_C2/blob/main/Client/bin/Debug/config/README/5.png)
 
 <mark>(2) 后门开发</mark>
 
@@ -121,7 +121,7 @@ Shell
 
 可以结合 ”后门生命周期“ 阅读源码，重点在于如何解析 ”命令数据“、如何打包 ”命令输出数据“。
 
-![屏幕截图 2024-07-16 221608.png](https://github.com/HackerCalico/Magic_C2/Client/bin/Debug/config/README/6.png)
+![屏幕截图 2024-07-16 221608.png](https://github.com/HackerCalico/Magic_C2/blob/main/Client/bin/Debug/config/README/6.png)
 
 <mark>(3) 生成器开发</mark>
 
@@ -145,7 +145,7 @@ Shell
 
 可结合 “命令控制模型” (客户端 - 服务端 - 后门) 对项目源码进行更深的理解。
 
-![屏幕截图 2024-07-16 221156.png](https://github.com/HackerCalico/Magic_C2/Client/bin/Debug/config/README/7.png)
+![屏幕截图 2024-07-16 221156.png](https://github.com/HackerCalico/Magic_C2/blob/main/Client/bin/Debug/config/README/7.png)
 
 ### 5. 免责声明
 
