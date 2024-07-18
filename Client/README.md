@@ -1,5 +1,5 @@
-ÏîÄ¿ -> ¹ÜÀí NuGet ³ÌÐò°ü -> °²×°ÒÔÏÂ¿â:
-protobuf-net
-Costura.Fody
-Newtonsoft.Json
+é¡¹ç›® -> ç®¡ç† NuGet ç¨‹åºåŒ… -> å®‰è£…ä»¥ä¸‹åº“:  
+protobuf-net  
+Costura.Fody  
+Newtonsoft.Json  
 System.Data.SQLite
