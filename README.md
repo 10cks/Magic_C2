@@ -6,9 +6,9 @@
 
 ### Please give me Star 🌟, thank you very much! It is very important to me!
 
-### 我会在较短时间里进行一次大更新。将支持 ”ShellCode生成“ 和 “进程注入”，并给出一个极其简单的支持 “远程抗沙箱” 的 ”ShellCode加载器“ 样例。不再有 msbuild.exe 限制。
+### 我会在几天时间里进行一次大更新。将支持 ”ShellCode生成“ 和 “进程注入”，并给出一个极其简单的支持 “远程抗沙箱” 的 ”ShellCode加载器“ 样例。
 
-### I will make a big update in a short time. Will support "ShellCode generation" and "Process injection", and give an extremely simple "ShellCode loader" sample that supports "remote anti-sandbox". No more msbuild.exe restrictions.
+### I will make a big update in a short time. Will support "ShellCode generation" and "Process injection", and give an extremely simple "ShellCode loader" sample that supports "remote anti-sandbox".
 
 ### 1. 介绍
 
