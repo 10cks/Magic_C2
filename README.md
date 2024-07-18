@@ -6,6 +6,10 @@
 
 ### Please give me Star 🌟, thank you very much! It is very important to me!
 
+### 我会在较短时间里进行一次大更新。将支持 ShellCode 生成，并给出一个极其简单的支持 “远程抗沙箱” 的 ShellCode 加载器样例。并且不再有 msbuild.exe 限制。
+
+### I will make a big update during the emergency time. ShellCode generation will be supported, and a very simple ShellCode loader sample that supports "remote anti-sandboxing" will be provided. And there are no msbuild.exe limitations anymore.
+
 ### 1. 介绍
 
 Version: Magic C2 v0.1.0 Demo
