@@ -82,6 +82,10 @@ Version: Magic C2 v0.1.0 Demo
 
 运行环境：Windows、Python 3、msbuild.exe (将 C:\Program Files\Microsoft Visual Studio\xxxx\Professional\MSBuild\Current\Bin 添加至环境变量)
 
+```shell
+pip install capstone
+```
+
 <u>(2) 服务端</u>
 
 开发语言：Go
