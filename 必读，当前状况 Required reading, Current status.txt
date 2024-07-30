@@ -1,35 +1,35 @@
-目前正在根据 Issues 中的问题进行整改，最终发布 v1.0.0 版本。
+2024.7.30
+本来打算今晚发布 v1.0.0 新版本，结果测出问题了，再稍微等待一下。
+I originally planned to release the new version v1.0.0 tonight, but a problem was detected, so I have to wait a little longer.
 
-已完成：
-1. “环境”自动检查
-2. 修复“命令脚本”调用问题
-3. 重写“后门”及“命令控制机制”源码。
-将“远程抗沙箱”单独分离至“加载器”，其他部分转为“ShellCode”。
-“后门源码”变得极其简单，“通信数据”格式从复杂转为简单的 Json (密文)。
-4. “远程抗沙箱”支持查看截图。
+v1.0.0 Beta - 2024.8
+(1) 新功能：
+1. Light / Dark 主题切换。
+2. "远程抗沙箱" 支持获取截图。
+3. 支持 ShellCode 生成。
+4. 进程迁移插件。
+5. 重写了 Profile、"生成器"，更加标准化。
+6. 重写了 "后门"、"命令控制机制"，从复杂的数据结构处理改为简单的 Json 处理。
+7. "运行环境" 自动检查。
+(2) 优化修复：
+1. 采用更准确的 "命令脚本" 调用方式。
+2. "告警" 通知从 "弹框" 改为 "系统日志" 处的红色标记。
+3. "命令终端" 的输入框不会被刷新清空。
+4. 添加 "监听器" 时检查端口是否重复。
+5. 更多异常捕获。
 
-未完成 / 进行中：
-5. 修复“后门生成”问题
-6. Profile 内容更加清晰
-7. “监听端口”检查是否重复
-8. “未授权提醒”从“弹框”改为“日志”红点
-9. 夜间模式
-10. 进程注入插件
-
-It is currently being rectified according to the Issues in the final release of v1.0.0 version.
-
-Completed:
-1. The Environment is automatically checked
-2. Rectify the problem of invoking command script
-3. Rewrite the "back door" and "command control mechanism" source code.
-Separate the "Remote Sandbox" into the "loader" and turn the rest into "ShellCode".
-The "backdoor source" has become extremely simple, and the "communication data" format has changed from complex to simple Json (ciphertext).
-4. You can view screenshots in Remote Sandbox.
-
-Incomplete/in progress:
-5. Fix the Backdoor generation problem
-6. The Profile is clearer
-7. Check whether the Listening port is repeated
-8. Unauthorized Reminder is changed from Pop-up to Log with the red dot
-9. Night Mode
-10. Process injection plug-in
+v1.0.0 Beta - 2024.8
+(1) New features:
+1. Light / Dark theme switching.
+2. "Remote anti-sandbox" supports taking screenshots.
+3. Support ShellCode generation.
+4. Process migration plug-in.
+5. Rewritten Profile and "Generator" to make them more standardized.
+6. Rewritten the "backdoor" and "command control mechanism" from complex data structure processing to simple Json processing.
+7. "Running environment" automatic check.
+(2) Optimization and repair:
+1. Use a more accurate "command script" calling method.
+2. The "Alarm" notification is changed from a "pop-up box" to a red mark at the "System Log".
+3. The input box of "Command Terminal" will not be refreshed and cleared.
+4. Check whether the port is duplicated when adding a "listener".
+5. More exception catching.
