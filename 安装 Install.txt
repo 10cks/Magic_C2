@@ -7,6 +7,7 @@ msbuild.exe 添加至环境变量 (C:\Program Files\Microsoft Visual Studio\xxxx
 开发语言：Go (可自行根据操作系统编译)
 (3) 后门
 Windows
+解压 Shell\HttpReverseShell\json-3.11.3.zip
 
 Release operating environment
 (1) Client
@@ -17,9 +18,13 @@ msbuild.exe added to environment variables (C:\Program Files\Microsoft Visual St
 Development language: Go (can be compiled according to the operating system)
 (3) Backdoor
 Windows
+Unzip Shell\HttpReverseShell\json-3.11.3.zip
 
-开发环境 (Release 运行环境为前提)
+开发环境
 (1) 客户端
+Windows
+Python 3 (pip install capstone)
+msbuild.exe 添加至环境变量 (C:\Program Files\Microsoft Visual Studio\xxxx\Professional\MSBuild\Current\Bin)
 开发语言：C# WPF
 Visual Studio 20XX 项目 -> 管理 NuGet 程序包 -> 安装以下库：
 protobuf-net
@@ -40,9 +45,15 @@ go-sqlite3 需要 GCC 的解决办法：
 4. 重启编译器
 编译：
 go build -ldflags "-s -w" -o Server.exe
+(3) 后门
+Windows
+解压 Shell\HttpReverseShell\json-3.11.3.zip
 
-Development environment (Release running environment is a prerequisite)
+Development environment
 (1) Client
+Windows
+Python 3 (pip install capstone)
+msbuild.exe added to environment variables (C:\Program Files\Microsoft Visual Studio\xxxx\Professional\MSBuild\Current\Bin)
 Development language: C# WPF
 Visual Studio 20XX Project -> Manage NuGet Packages -> Install the following libraries:
 protobuf-net
@@ -63,3 +74,6 @@ go-sqlite3 requires GCC workaround:
 4. Restart the compiler
 Compile:
 go build -ldflags "-s -w" -o Server.exe
+(3) Backdoor
+Windows
+Unzip Shell\HttpReverseShell\json-3.11.3.zip
