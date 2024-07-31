@@ -16,7 +16,7 @@ Version: Magic C2 v1.0.0 Beta
 
 在首发版本的 Issues 中，我看到了大家反馈的许多问题。所以我在近两周的时间里进行了大范围的整改优化，最终得到此版本。虽然与一个成熟的 C2 框架还有一定距离，但也已经非常棒了！
 
-![屏幕截图 2024-07-17 175750.png](https://github.com/HackerCalico/Magic_C2/blob/main/png/1.png)
+![屏幕截图 2024-07-17 175750.png](https://github.com/HackerCalico/Magic_C2/blob/main/Client/bin/Debug/config/README/1.png)
 
 ### 2. 项目亮点
 
@@ -58,7 +58,7 @@ Version: Magic C2 v1.0.0 Beta
 
 文件上传下载均采用分块传输，支持随时暂停、取消与修改块的大小。
 
-![7.png](https://github.com/HackerCalico/Magic_C2/blob/main/png/2.png)
+![7.png](https://github.com/HackerCalico/Magic_C2/blob/main/Client/bin/Debug/config/README/2.png)
 
 <mark>(5) 二次开发</mark>
 
@@ -87,11 +87,11 @@ Client
 
 Python 编写规范可参考 cmd 插件。
 
-![2.png](https://github.com/HackerCalico/Magic_C2/blob/main/png/3.png)
+![2.png](https://github.com/HackerCalico/Magic_C2/blob/main/Client/bin/Debug/config/README/3.png)
 
 目前其他 "_" 结尾的插件均为 "文件管理" 模块的插件，模块如图。
 
-![3.png](https://github.com/HackerCalico/Magic_C2/blob/main/png/4.png)
+![3.png](https://github.com/HackerCalico/Magic_C2/blob/main/Client/bin/Debug/config/README/4.png)
 
 <mark>(2) 后门开发</mark>
 
@@ -111,11 +111,11 @@ Shell
 
 ShellCode Loader 生命周期：
 
-![屏幕截图 2024-07-16 221607.png](https://github.com/HackerCalico/Magic_C2/blob/main/png/5.png)
+![屏幕截图 2024-07-16 221607.png](https://github.com/HackerCalico/Magic_C2/blob/main/Client/bin/Debug/config/README/5.png)
 
 ShellCode 生命周期：
 
-![屏幕截图 2024-07-16 221608.png](https://github.com/HackerCalico/Magic_C2/blob/main/png/6.png)
+![屏幕截图 2024-07-16 221608.png](https://github.com/HackerCalico/Magic_C2/blob/main/Client/bin/Debug/config/README/6.png)
 
 <mark>(3) 生成器开发</mark>
 
@@ -137,7 +137,7 @@ Shell
 
 可以结合 "命令控制模型" (客户端 - 服务端 - 后门) 对项目源码进行更深的理解。
 
-![屏幕截图 2024-07-16 221156.png](https://github.com/HackerCalico/Magic_C2/blob/main/png/7.png)
+![屏幕截图 2024-07-16 221156.png](https://github.com/HackerCalico/Magic_C2/blob/main/Client/bin/Debug/config/README/7.png)
 
 ### 4. 免责声明
 
