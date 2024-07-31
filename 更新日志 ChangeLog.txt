@@ -4,7 +4,7 @@ v0.1.0 Demo - 2024.7.17
 v0.1.0 Demo - 2024.7.17
 Initial Release.
 
-v1.0.0 Beta - 2024.7.30
+v1.0.0 Beta - 2024.7.31
 (1) 新功能：
 1. Light / Dark 主题切换。
 2. "远程抗沙箱" 支持获取截图。
@@ -21,7 +21,7 @@ v1.0.0 Beta - 2024.7.30
 5. 添加 "监听器" 时检查端口是否重复。
 6. 更多异常捕获。
 
-v1.0.0 Beta - 2024.7.30
+v1.0.0 Beta - 2024.7.31
 (1) New features:
 1. Light / Dark theme switching.
 2. "Remote anti-sandbox" supports taking screenshots.
